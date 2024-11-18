@@ -1,0 +1,11 @@
+
+# Usar la imagen base de Nginx
+FROM nginx:latest
+
+# Copiar el archivo index.html al directorio predeterminado de Nginx
+COPY index.html /home/vagrant/UTN-FRA_SO_Examenes/202406/docker/index.html
+
+# Exponer el puerto 80
+EXPOSE 80
+
+

@@ -1,0 +1,212 @@
+1    lsblk
+2    git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+3    ls -l
+4    UTN-FRA_SO_Examenes/
+5    cd UTN-FRA_SO_Examenes/
+6    ls -l
+7    cat ./UTN-FRA_SO_Examenes/202406/script_Precondicion.sh
+8    cd 202406
+9    ls -l
+10   cat script_Precondicion.sh
+11   ./UTN-FRA_SO_Examenes/202406/script_Precondicion.sh
+12   bash script_Precondicion.sh
+13   source  ~/.bashrc  && history -a
+14   source ~/.bashrc
+15   sudo source  ~/.bashrc  && history -a
+16   cd ..
+17   ls -l
+18   cd ..
+19   ls -l
+20   RTA_Examen_20241116/
+21   CD RTA_Examen_20241116/
+22   cd RTA_Examen_20241116/
+23   ls -l
+24   lsblk
+25   sudo lvs
+26   sudo vgs
+27   sudo pvs
+28   ls -l
+29   clear
+30   ls -l
+31   vim Punto_A.sh
+32   ls -l
+33   cat Punto_A.sh
+34   bash Punto_A.sh
+35   lsblk
+36   sudo systemctl restart docker
+37   sudo systemctl status docker
+38   ls -l
+39   vim Punto_B.sh
+40   v
+41   ls -l
+42   clear
+43   ls -l
+44   vim Punto_B.sh
+45   bash Punto_B.sh
+46   vim Punto_B.sh
+47   bash Punto_B.sh admin /usr/local/bin/<Dietz>AltaUser-Groups.sh
+48   vim Punto_B.sh
+49   bash Punto_B.sh admin /usr/local/bin/<Dietz>AltaUser-Groups.sh
+50   vim Punto_B.sh
+51   sudo /usr/local/bin/<tu-apellido>AltaUser-Groups.sh <usuario_origen> <ruta_repositorio>
+52   sudo /usr/local/bin/<Dietz>AltaUser-Groups.sh admin /home/usuario/repos
+53   vim Punto_B.sh
+54   sudo /usr/local/bin/<Dietz>AltaUser-Groups.sh admin /home/usuario/repos
+55   bash Punto_B.sh
+56   sudo nano /usr/local/bin/DietzAltaUser-Groups.sh
+57   vim Punto_B.sh
+58   sudo /usr/local/bin/<Dietz>AltaUser-Groups.sh admin /home/usuario/repos
+59   bash Punto_B.sh
+60   cd ..
+61   ls -l
+62   UTN-FRA_SO_Examenes/
+63   cd UTN-FRA_SO_Examenes/
+64   ls -l
+65   cd 202406
+66   ls -l
+67   cd docker
+68   ls -l
+69   cat index.html
+70   vim index.html
+71   nano dockerfile
+72   ls -l
+73   pwd
+74   nano dockerfile
+75   ls -l
+76   docker build -t web1-<Dietz>.
+77   docker build -t web1-<Dietz> .
+78   bash dockerfile
+79   nano dockerfile
+80   ls -l
+81   cat index.html
+82   docker login -u francodietz
+83   docker build -t web1-<Dietz> .
+84   nano web2-<Dietz>
+85   ls -l
+86   nano web2<Dietz>
+87   nano web2-dietz
+88   ls -l
+89   docker build -t web2-dietz .
+90   docker images
+91   nano dockerfile
+92   docker build -t web2-<Dietz> .
+93   nano dockerfile
+94   bash dockerfile
+95   docker build -t web2-<Dietz> .
+96   docker build -t web2-<Tu-apellido> .
+97   FROM nginx:latest
+98   docker build -t web2-Dietz .
+99   docker build -t web2Dietz .
+100  docker build -t web2-Dietz .
+101  docker build -t web2-dietz .
+102  docker images
+103  docker system prune -a
+104  docker image prune
+105  docker build -t web2-dietz .
+106  docker system prune -a
+107  docker image prune
+108  docker volume prune
+109  docker container prune
+110  docker build -t web2-dietz .
+111  docker system prune -a
+112  docker container prune
+113  docker image prune
+114  sudo systemctl stop docker
+115  sudo rsync -aP /var/lib/docker/ /mnt/disco_sde/docker/
+116  sudo fdisk /dev/sde
+117  sudo fdisk /dev/sdg
+118  sudo rsync -aP /var/lib/docker/ /mnt/disco_sde/docker/
+119  sudo systemctl restart docker
+120  docker build -t web2-dietz .
+121  clear
+122  lsblk
+123  exit
+124  ls -l
+125  history
+126  clear
+127  ls -l
+128  cd RTA_Examen_20241116/
+129  ls -l
+130  Nanoc Punto_C.sh
+131  Nano Punto_C.sh
+132  vim Punto_C.sh
+133  ls -l
+134  cd ..
+135  ls -l
+136  cd UTN-FRA_SO_Examenes/
+137  ls -l
+138  cd 202406
+139  ls -l
+140  cd ansible
+141  ls -l
+142  cat playbook.yml
+143  mkdir -p temp_2ndo_parcial/alumno temp_2ndo_parcial/equipo
+144  ls -l
+145  tree
+146  echo -e "Tu nombre: Franco Dietz\nTu apellido: Dietz\nDivision: 311" > /tmp/2do_parcial/alumno/datos_alumno.txt
+147  cd temp_2ndo_parcial/
+148  ls -l
+149  cd alumno
+150  echo "Tu nombre: Franco Tu apellido: Dietz Division: 311" > alumno.txt
+151  ls -l
+152  cat alumno.txt
+153  ls -l
+154  cd ..
+155  ls -l
+156  cd equipo
+157  ip a
+158  lsb_release -a
+159  nproc
+160  echo "ip: 192.168.56.3 distribucion:
+161  echo "ip: 192.168.56.3 distribucion: Ubuntu 20.04 CPU: 4 cores" > equipo.txt
+162  ls -l
+163  cat equipo.txt
+164  cd ..
+165  ls -l
+166  tree
+167  mv alumno datos_alumno
+168  ls -l
+169  mv datos_alumno temp_2ndo_parcial/alumno
+170  ls -l
+171  tree
+172  rm -r equipo
+173  ls -l
+174  rm -r temp_2ndo_parcial
+175  ls -l
+176  mkdir -p parcial/ansible parcial/scripts parcial/docker
+177  ls -l
+178  tree
+179  cd parcial
+180  ls -l
+181  cd ansible
+182  nano playbook.yml
+183  ls -l
+184  cd ..
+185  ls -l
+186  cd docker
+187  nano Dockerfile
+188  ls -l
+189  docker build -t parcial/docker .
+190  cd ..
+191  ls -l
+192  cd scripts
+193  nano setup.sh
+194  ls -l
+195  chmod +x setup.sh
+196  ./setup.sh
+197  ls -l
+198  cd ..
+199  ls -l
+200  tree
+201  rm -r parcial
+202  ls -l
+203  nano docker-compose.yml
+204  ls -l
+205  cat docker-compose.yml
+206  docker-compose up
+207  docker-compose ps
+208  docker-compose down
+209  ls -l
+210  clear
+211  history
+

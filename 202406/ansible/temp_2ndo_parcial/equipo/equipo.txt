@@ -1,0 +1,6 @@
+ip: 192.168.56.3 
+distribucion: Distributor ID: Ubuntu
+Description:    Ubuntu 22.04.4 LTS
+Release:        22.04
+Codename:       jammy 
+cantidad de cores: 2
